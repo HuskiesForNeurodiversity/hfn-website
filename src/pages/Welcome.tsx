@@ -92,7 +92,7 @@ function Welcome() {
         <div className="row" style={{ marginTop: "2%" }}>
           <div className="col-5 p-0 m-0 d-flex justify-content-end align-self-center">
             <img
-              src="hfn-website/assets/HFNLOGO.png"
+              src="/hfn-website/assets/HFNLOGO.png"
               alt="HFN Logo"
               style={descTopBoxLogo}
             ></img>
@@ -176,7 +176,7 @@ function Welcome() {
           <div className="col p-0 m-0 ">
             <Link
               to="/hfn-website/experience"
-              className=" p-0 m-0 d-flex justify-content-end"
+              className=" p-0 m-0 d-flex justify-content-center"
             >
               <button
                 type="button"
@@ -265,7 +265,7 @@ function Welcome() {
             <a href="mailto:huskies4neurodiverse@gmail.com">
               <img
                 className="m=0 p-0"
-                src="hfn-website/assets/emailIcon.png"
+                src="/hfn-website/assets/emailIcon.png"
                 alt="Email icon"
                 style={{ ...descTopBoxLogo, marginLeft: "175%" }}
               ></img>
@@ -275,7 +275,7 @@ function Welcome() {
             <a href="https://www.instagram.com/hfnuw/" target="_blank">
               <img
                 className="m=0 p-0"
-                src="hfn-website/assets/instagramLogo.png"
+                src="/hfn-website/assets/instagramLogo.png"
                 alt="Instagram icon"
                 style={{ ...descTopBoxLogo, width: "8%", marginLeft: "46%" }}
               ></img>
@@ -285,7 +285,7 @@ function Welcome() {
             <a href="https://discord.gg/yxspf8aewR" target="_blank">
               <img
                 className="m=0 p-0"
-                src="hfn-website/assets/discordIcon.png"
+                src="/hfn-website/assets/discordIcon.png"
                 alt="Discord icon"
                 style={{ ...descTopBoxLogo, width: "8%", marginLeft: "20%" }}
               ></img>
@@ -341,7 +341,7 @@ function Welcome() {
           <div className="col p-0 m-0 d-flex justify-content-center">
             <img
               className="m-0 p-0"
-              src="hfn-website/assets/Screenshot 2023-07-11 225513.png"
+              src="/hfn-website/assets/Screenshot 2023-07-11 225513.png"
               alt="Images of Acknowledgements"
               style={{ width: "25%", height: "auto" }}
             ></img>
@@ -448,7 +448,7 @@ function Welcome() {
           <div className="col p-0 m-0 d-flex justify-content-center">
             <img
               className="m-0 p-0"
-              src="hfn-website/assets/HfN community image.png"
+              src="/hfn-website/assets/HfN community image.png"
               alt="Images of Acknowledgements"
               style={{
                 width: "80%",
