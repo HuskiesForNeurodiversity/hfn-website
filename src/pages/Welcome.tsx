@@ -174,9 +174,9 @@ function Welcome() {
             </Link>
           </div>
           <div className="col p-0 m-0 ">
-            <a
-              className="p-0 m-0 d-flex justify-content-center"
-              href="experience"
+            <Link
+              to="/hfn-website/experience"
+              className=" p-0 m-0 d-flex justify-content-end"
             >
               <button
                 type="button"
@@ -189,7 +189,7 @@ function Welcome() {
               >
                 Lived Experience Interviews
               </button>
-            </a>
+            </Link>
           </div>
           <div className="col p-0 m-0">
             <a className="p-0 m-0 d-flex justify-content-start" href="events">
