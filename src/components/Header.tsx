@@ -61,7 +61,7 @@ function Header() {
         style={{ marginTop: "2%", marginLeft: "2.5%" }}
       >
         <div className="col-1 p-0 p-0 m-0 d-flex justify-content-end align-self-center">
-          <img style={logoStyle} src="/assets/HFNLOGO.png" alt="HFN Logo"></img>
+          <img style={logoStyle} src="/HFNLOGO.png" alt="HFN Logo"></img>
         </div>
         <div className="col-1 p-0">
           <div style={textBoxStyle}>

@@ -88,11 +88,7 @@ function Welcome() {
         <div className="row" style={{ marginTop: "8%" }}></div>
         <div className="row" style={{ marginTop: "2%" }}>
           <div className="col-5 p-0 m-0 d-flex justify-content-end align-self-center">
-            <img
-              src="/assets/HFNLOGO.png"
-              alt="HFN Logo"
-              style={descTopBoxLogo}
-            ></img>
+            <img src="/HFNLOGO.png" alt="HFN Logo" style={descTopBoxLogo}></img>
           </div>
           <div className="col p-0 m-0">
             <p style={lightTextStyleL}>Huskies for</p>
@@ -262,7 +258,7 @@ function Welcome() {
             <a href="mailto:huskies4neurodiverse@gmail.com">
               <img
                 className="m=0 p-0"
-                src="/assets/emailIcon.png"
+                src="/emailIcon.png"
                 alt="Email icon"
                 style={{ ...descTopBoxLogo, marginLeft: "175%" }}
               ></img>
@@ -272,7 +268,7 @@ function Welcome() {
             <a href="https://www.instagram.com/hfnuw/" target="_blank">
               <img
                 className="m=0 p-0"
-                src="/assets/instagramLogo.png"
+                src="/instagramLogo.png"
                 alt="Instagram icon"
                 style={{ ...descTopBoxLogo, width: "8%", marginLeft: "46%" }}
               ></img>
@@ -282,7 +278,7 @@ function Welcome() {
             <a href="https://discord.gg/yxspf8aewR" target="_blank">
               <img
                 className="m=0 p-0"
-                src="/assets/discordIcon.png"
+                src="/discordIcon.png"
                 alt="Discord icon"
                 style={{ ...descTopBoxLogo, width: "8%", marginLeft: "20%" }}
               ></img>
@@ -338,7 +334,7 @@ function Welcome() {
           <div className="col p-0 m-0 d-flex justify-content-center">
             <img
               className="m-0 p-0"
-              src="/assets/Screenshot 2023-07-11 225513.png"
+              src="/Screenshot 2023-07-11 225513.png"
               alt="Images of Acknowledgements"
               style={{ width: "25%", height: "auto" }}
             ></img>
@@ -445,7 +441,7 @@ function Welcome() {
           <div className="col p-0 m-0 d-flex justify-content-center">
             <img
               className="m-0 p-0"
-              src="/assets/HfN community image.png"
+              src="/HfN community image.png"
               alt="Images of Acknowledgements"
               style={{
                 width: "80%",
