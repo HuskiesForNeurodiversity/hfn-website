@@ -1,0 +1,25 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+$primary: rgb(67, 48, 122);
+$secondary: rgb(30, 11, 87);
+$dark: $black;
+
+$nav-underline-link-active-color: $primary;
+$nav-link-color: $black;
+$nav-link-hover-color: $primary;
+$nav-underline-gap: 3rem;
+
+$custom-colors: map-merge($theme-colors, (
+//changing colors
+"primary": $primary,
+"secondary": $secondary,
+"dark": $dark,
+//example for adding more colors    
+"husky-color": rgb(24, 11, 61)
+));
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
