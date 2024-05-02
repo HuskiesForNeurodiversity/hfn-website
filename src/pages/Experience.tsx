@@ -63,11 +63,8 @@ const Experience = () => {
     <div>
       <div>
         <Header />
-        <div
-          id="FakeHeader"
-          className="container-fluid bg-primary fade show"
-        ></div>
         <div className="row bg-primary" style={pageContainer}>
+          <div className="row" style={{ marginTop: "8%" }}></div>
           <div className="row" style={{ marginTop: "4%", marginBottom: "4%" }}>
             <div className="col-1"></div>
             <div className="col-5 p-0 m-0 d-flex justify-content-end">
