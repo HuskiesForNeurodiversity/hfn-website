@@ -5,9 +5,9 @@ import Resources from "./pages/Resources";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./scss/style.scss";
-import { createHashRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: "/hfn-website",
     element: <Welcome />,
