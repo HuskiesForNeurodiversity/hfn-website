@@ -9,23 +9,23 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
-    path: "/hfn-website",
+    path: "/",
     element: <Welcome />,
   },
   {
-    path: "/hfn-website/welcome",
+    path: "/welcome",
     element: <Welcome />,
   },
   {
-    path: "/hfn-website/events",
+    path: "/events",
     element: <Events />,
   },
   {
-    path: "/hfn-website/experience",
+    path: "/experience",
     element: <Experience />,
   },
   {
-    path: "/hfn-website/resources",
+    path: "/resources",
     element: <Resources />,
   },
 ]);
