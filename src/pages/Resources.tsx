@@ -3,7 +3,7 @@ import { CSSProperties } from "react";
 
 const Resources = () => {
   window.addEventListener("resize", handleResize);
-  window.addEventListener("load", handleResize);
+  window.addEventListener("pageshow", handleResize);
   function handleResize() {
     let headerId = document.getElementById("Header");
     let fakeHeaderId = document.getElementById("FakeHeader");

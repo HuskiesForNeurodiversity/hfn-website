@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import { CSSProperties } from "react";
 const Events = () => {
   window.addEventListener("resize", handleResize);
-  window.addEventListener("load", handleResize);
+  window.addEventListener("pageshow", handleResize);
   function handleResize() {
     let headerId = document.getElementById("Header");
     let fakeHeaderId = document.getElementById("FakeHeader");

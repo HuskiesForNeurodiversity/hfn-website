@@ -4,7 +4,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 const Experience = () => {
   window.addEventListener("resize", handleResize);
-  window.addEventListener("load", handleResize);
+  window.addEventListener("pageshow", handleResize);
   function handleResize() {
     let headerId = document.getElementById("Header");
     let fakeHeaderId = document.getElementById("FakeHeader");
