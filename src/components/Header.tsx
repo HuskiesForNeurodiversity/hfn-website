@@ -63,7 +63,7 @@ function Header() {
         <div className="col-1 p-0 p-0 m-0 d-flex justify-content-end align-self-center">
           <img
             style={logoStyle}
-            src="/hfn-website/assets/HFNLOGO.png"
+            src="./assets/HFNLOGO.png"
             alt="HFN Logo"
           ></img>
         </div>
