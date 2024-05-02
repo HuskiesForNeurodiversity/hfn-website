@@ -1,5 +1,6 @@
 import { CSSProperties } from "react";
 import Header from "../components/Header";
+import { Link } from "react-router-dom";
 
 function Welcome() {
   //const windowHeight = window.innerHeight;
@@ -155,7 +156,10 @@ function Welcome() {
         </div>
         <div className="row m-0 p-0">
           <div className="col p-0 m-0 ">
-            <a className=" p-0 m-0 d-flex justify-content-end" href="articles">
+            <Link
+              to="/hfn-website/events"
+              className=" p-0 m-0 d-flex justify-content-end"
+            >
               <button
                 type="button"
                 className="btn btn-primary btn-large"
@@ -165,9 +169,9 @@ function Welcome() {
                   width: "45%",
                 }}
               >
-                Articles
+                Events
               </button>
-            </a>
+            </Link>
           </div>
           <div className="col p-0 m-0 ">
             <a
