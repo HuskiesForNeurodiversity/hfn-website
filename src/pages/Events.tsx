@@ -194,7 +194,7 @@ const Events = () => {
               <div className="ratio ratio-16x9">
                 <img
                   className="m=0 p-0"
-                  src="/assets/eventsimages.png"
+                  src="/hfn-website/assets/eventsimages.png"
                   style={{ marginLeft: "25%", maxWidth: "50%" }}
                 ></img>
               </div>
