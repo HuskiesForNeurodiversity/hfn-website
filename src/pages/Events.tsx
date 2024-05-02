@@ -191,7 +191,7 @@ const Events = () => {
               <div className="ratio ratio-16x9">
                 <img
                   className="m=0 p-0"
-                  src="public/assets/eventsimages.png"
+                  src="public/assets/assets/assets/eventsimages.png"
                   style={{ marginLeft: "25%", maxWidth: "50%" }}
                 ></img>
               </div>
